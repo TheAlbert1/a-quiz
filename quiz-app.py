@@ -24,6 +24,42 @@ questions = [
     "options": ["A: engine x", "B: enjincs", "C: n.g.i.n.x."],
     "answer": "A"
   },
+
+  {
+    "question": "This is question number...",
+    "options": ["A: 4", "B: 6", "C: 5", "D: 7"],
+    "answer": "C"
+  },
+
+  {
+    "question": "Before December there's...",
+    "options": ["A: September", "B: November", "C: August", "D: October"],
+    "answer": "B"
+  },
+
+  {
+    "question": "Imagine you're watching Bob the Builder. Which version do you watch?",
+    "options": ["A: The classic stop-motion version", "B: The horrible new CGI version"],
+    "answer": "A"
+  },
+
+  {
+    "question": "What does the line-height property in CSS do?",
+    "options": ["A: Nothing unless font-size is also specified", "B: It sets the font's x-height", "C: It sets the vertical height of the text", "D: It sets the space between lines of text"],
+    "answer": "D"
+  },
+
+  {
+    "question": "When setting the color of the text in a HTML document, it's important to think about...",
+    "options": ["A: A good contrast against the background", "B: A poor contrast against the background"],
+    "answer": "A"
+  },
+
+  {
+    "question": "Did you like my quiz?",
+    "options": ["A: Yes", "B: No"],
+    "answer": "A"
+  },
 ]
 
 def run_quiz(questions):
@@ -44,6 +80,6 @@ def run_quiz(questions):
       print("Wrong!")
   
   #Show final score
-  print(f"\n You got {score} out of {len(questions)} questions correct! ")
+  print(f"\n You got {score} out of {len(questions)} questions correct!")
 
 run_quiz(questions)
